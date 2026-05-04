@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import axios from "axios";
 
-const FHIR_BASE = "http://localhost:8080/fhir";
+const FHIR_BASE = "https://hapi-production-3f3b.up.railway.app/fhir";
 const GEMINI_KEY = "AIzaSyAMroUbKJB-CbdIjD7JkETN-OpNpyDMZwo";
 const GEMINI_MODEL = "gemini-2.5-flash-lite";
 
