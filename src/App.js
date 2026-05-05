@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import axios from "axios";
 
 const FHIR_BASE = "https://hapi-production-3f3b.up.railway.app/fhir";
-const GEMINI_KEY = "AIzaSyAMroUbKJB-CbdIjD7JkETN-OpNpyDMZwo";
+const GEMINI_KEY = "AIzaSyDIDJKZSdQcPmJ6YC3A3KITPH0YAQwxmf8";
 const GEMINI_MODEL = "gemini-2.5-flash-lite";
 
 async function callGemini(prompt) {
